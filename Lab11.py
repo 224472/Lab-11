@@ -160,12 +160,13 @@ def main():
             print(f"Avg: {stats['avg']}%")
             print(f"Max: {stats['max']}%")
 
-        elif select == "3":
+    elif select == 3:
             assignment_name = input("What is the assignment name: ")
             calc.display_ass_gr(assignment_name)
 
 if __name__ == "__main__":
     main()
+
 
 
 
